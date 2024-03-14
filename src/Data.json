@@ -1,0 +1,76 @@
+
+    {   
+        "id" : 1,
+        "category" : "Mathematics",
+        "description" : "Right Cancellation Law",
+        "data": [
+            {
+                "type": "image",
+                "filePath": "Assests/maths.jpg",
+                "heading1": "Mathematics Image",
+                "description1": "Theorem of right cancellation law",
+                "question": "Let A B, , and C be square matrices of order n.If A is non-singular and AC = BC, then A = B",
+                "point1":"But what happens here is I've got a times a inverse, and we know by definition a a inverse is equal to e, the identity element. And same thing on the left, right? So I've got the identity b is equal to the identity times c, and the identity element times an element is just the element itself. So we get that b equals c. In other words, this theorem holds true.",
+                "isVisible":true
+            },
+            {
+                "type": "video",
+                "filePath": "Assests/maths.mp4",
+                "heading2": "Mathematics Video",
+                "description2": "Theorem of right cancellation law",
+                "point3":"But what happens here is I've got a times a inverse, and we know by definition a a inverse is equal to e, the identity element. And same thing on the left, right? So I've got the identity b is equal to the identity times c, and the identity element times an element is just the element itself. So we get that b equals c. In other words, this theorem holds true.",
+                "isVisible":true
+            },
+            {
+                "type": "audio",
+                "filePath": "Assests/Maths.mpeg",
+                "heading3": "Right cancellation law Audio",
+                "description3": "Theorem of right cancellation law",
+                "point3":"But what happens here is I've got a times a inverse, and we know by definition a a inverse is equal to e, the identity element. And same thing on the left, right? So I've got the identity b is equal to the identity times c, and the identity element times an element is just the element itself. So we get that b equals c. In other words, this theorem holds true."
+               
+            },
+            {
+                "type": "question",
+                "title":"Answer the following question:",
+                "subject":"mathematics",
+                "description4": "1. Find the adjoint of the following:",
+                "description5": "2. Find the inverse (if it exists) of the following:",
+                "description6": "3. Find the rank of each of the following matrices:",
+                "description7": "4.Find the rank of the following matrices which are in row-echelon form :",
+                "description8": "5. Find the rank of the following matrices by minor method:",
+                "matrix1": [
+                  [1, 2, 3],
+                  [4, 5, 6],
+                  [7, 8, 9]
+                ],
+                "matrix2": [
+                    [1, 2],
+                    [4, 5]
+                  ],
+                  "matrix3": [
+                    [1, 2, 3],
+                    [4, 5, 6],
+                    [7, 8, 9]
+                  ],
+                  "matrix4": [
+                    [1, 2],
+                    [4, 5],
+                    [7, 8]
+                  ],
+                  "matrix5": [
+                    [1, 2, -3],
+                    [-4, 5, 6],
+                    [7, -8, 9]
+                  ]
+                
+            },
+            {
+                "type": "download",
+                "title":"Download" ,
+                "filePath": "Assests/cancellation law.pdf"
+            }
+           
+        ]
+    }
+   
+   

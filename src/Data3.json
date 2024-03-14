@@ -1,0 +1,54 @@
+
+    {   
+        "id" : 3,
+        "category" : "Chemistry",
+        "description" : "Magnetic separation",
+        "data": [
+            {
+                "type": "image",
+                "filePath": "Assests/Chemistry.png",
+                "heading1": "Chemistry Video",
+                "description1": "Introduction about magnetics separation",
+                "question": "This method is applicable to ferromagnetic ores and it is based on the difference in the magnetic properties of the ore and the impurities.",
+                "point1":"basically you can find that is the powder ores are on the roller or are on the moving belt and these two rollers are basically the magnetic rollers and they are moving in a direction here so in that case basically we could find that is the magnetic roller has a importance in this case because we can find that is the powder ore it could consist of the magnetic particles or it also consists of the non-magnetic particles so in that case whenever this powder ore are being allowed to pass in this direction",
+                "isVisible":true
+            },
+            {
+                "type": "video",
+                "filePath": "Assests/chemistry.mp4",
+                "heading2": "Chemistry Video",
+                "description2": "Introduction about magnetic separation",
+                "point2":"basically you can find that is the powder ores are on the roller or are on the moving belt and these two rollers are basically the magnetic rollers and they are moving in a direction here so in that case basically we could find that is the magnetic roller has a importance in this case because we can find that is the powder ore it could consist of the magnetic particles or it also consists of the non-magnetic particles so in that case whenever this powder ore are being allowed to pass in this direction",
+                "isVisible":true
+            },
+            {
+                "type": "audio",
+                "filePath": "Assests/Chemistry.mpeg",
+                "heading3": "Magnetic separation audio",
+                "description3": "Introduction about Magnetic separation ",
+                "point3":"basically you can find that is the powder ores are on the roller or are on the moving belt and these two rollers are basically the magnetic rollers and they are moving in a direction here so in that case basically we could find that is the magnetic roller has a importance in this case because we can find that is the powder ore it could consist of the magnetic particles or it also consists of the non-magnetic particles so in that case whenever this powder ore are being allowed to pass in this direction"
+               
+            },
+            {
+                "type": "question",
+                "title":"Answer the following question:",
+                "subject":"chemistry",
+                "description4": "1. Who was Hippolyte Fizeau, and what was his contribution to the measurement of the speed of light?",
+                "description5": "2. Describe the experimental setup used by Fizeau in his method to determine the speed of light?",
+                "description6": "3. How does Fizeau's method utilize interference patterns to measure the speed of light?",
+                "description7": "4. Explain the principle behind the rotating toothed wheel used in Fizeau's experiment?",
+                "description8": "5. What role does the partially reflective mirror play in Fizeau's method, and how does it contribute to the measurement of the speed of light?",
+                "description9": "6.Discuss the significance of Fizeau's experimental findings in the context of the historical pursuit Discuss the significance of Fizeau's experimental findings in the context of the historical pursuit to accurately measure the speed of light?",
+                "description10": "7. What were some of the challenges faced by Fizeau during the development and execution of his method?",
+                "description11": "8. How did Fizeau's method compare to other contemporary techniques for measuring the speed of light?",
+                "description12": "9. Can Fizeau's method be adapted or improved with modern technology, and if so, how?",
+                "description13": "10. Reflect on the implications and applications of accurately measuring the speed of light in various scientific fields and industries?"
+            },
+            {
+                "type": "download",
+                "title":"Download" ,
+                "filePath": "Assests/magnetic separation.pdf"
+            }
+        ]
+    }
+   

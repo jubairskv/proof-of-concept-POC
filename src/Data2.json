@@ -1,0 +1,56 @@
+
+{   
+    "id" : 2,
+    "category" : "Physics",
+    "description" : "Fizeau’s method to determine speed of light",
+    "data": [
+        {
+            "type": "image",
+            "filePath": "Assests/physics.png",
+            "heading1": "Physics Video",
+            "description1": "Introduction about Fizeau’s speed of light",
+            "question": "The apparatus used by Fizeau for determining speed of light in air",
+            "point1":"Okay, this is Fizer's experiment to determine the speed of visible light. So he has a light source over here. It's emitting light and it reflects off this partially reflecting surface. And it has to go through one of the gaps in this toothed wheel. And it goes through that gap and it reflects off this mirror and it comes back. And again, it has to go through a gap in that toothed wheel. Maybe the same gap, maybe a different one. And then it goes through that gap and it reflects off this partially reflecting surface.",
+            "isVisible":true
+        },
+        {
+            "type": "video",
+            "filePath": "Assests/Physics.mp4",
+            "heading2": "Physics Video",
+            "description2": "Introduction about Fizeau’s speed of light",
+            "point2":"Okay, this is Fizer's experiment to determine the speed of visible light. So he has a light source over here. It's emitting light and it reflects off this partially reflecting surface. And it has to go through one of the gaps in this toothed wheel. And it goes through that gap and it reflects off this mirror and it comes back. And again, it has to go through a gap in that toothed wheel. Maybe the same gap, maybe a different one. And then it goes through that gap and it reflects off this partially reflecting surface.",
+            "isVisible":true
+        },
+        {
+            "type": "audio",
+            "filePath": "Assests/Physics.mpeg",
+            "heading3": "Fizeau’s speed of light Audio",
+            "description3": "Introduction about Fizeau’s method to determine speed of light",
+            "point3":"Okay, this is Fizer's experiment to determine the speed of visible light. So he has a light source over here. It's emitting light and it reflects off this partially reflecting surface. And it has to go through one of the gaps in this toothed wheel. And it goes through that gap and it reflects off this mirror and it comes back. And again, it has to go through a gap in that toothed wheel. Maybe the same gap, maybe a different one. And then it goes through that gap and it reflects off this partially reflecting surface."
+           
+            
+        },
+        {
+            "type": "question",
+            "title":"Answer the following question:",
+            "subject":"physics",
+            "description4": "1. What is magnetic separation, and how does it work?",
+            "description5": "2. Explain the difference between paramagnetic, diamagnetic, and ferromagnetic materials in the context of magnetic separation?",
+            "description6": "3. Describe the equipment commonly used in magnetic separation processes?",
+            "description7": "4. What are the factors that influence the effectiveness of magnetic separation?",
+            "description8": "5. Discuss the advantages and limitations of magnetic separation compared to other separation techniques?",
+            "description9": "6.How is magnetic separation utilized in the recycling industry? Provide examples.",
+            "description10": "7. What role does magnetic separation play in the mining and mineral processing industry?",
+            "description11": "8. Explain the concept of high-gradient magnetic separation (HGMS) and its applications?",
+            "description12": "9. How can magnetic separation be applied in the purification of substances or materials?",
+            "description13": "10. Discuss the environmental implications and considerations associated with the use of magnetic separation techniques in industrial processes?"
+        },
+        {
+            "type": "download",
+            "title":"Download" ,
+            "filePath": "Assests/fizeau.pdf"
+        }
+        
+    ]
+}
+
