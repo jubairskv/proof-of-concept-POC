@@ -33,6 +33,9 @@
     transform: rotate(360deg);
   }
 } */
+body{
+  background-color: #ffffff;
+}
 
 .App {
   display: flex;
@@ -63,14 +66,37 @@
 
 .App button {
   margin: 10px;
+  margin-left: -21px;
   padding: 10px 20px;
-  background-color: #00684a;
+  background-color: #888888;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
   outline: none;
-  margin-top: 50px;
+  margin-top: 10px;
+  width: 220px;
+  background-color: #c2fbd7;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+}
+.App button:hover{
+  background-color:#0be5a7;
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
 }
 
 .App button:disabled {
@@ -78,17 +104,19 @@
   cursor: not-allowed;
 }
 
+
+
 .SubjectData {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  width: 700px;
-  height: 600px;
-  margin-left: 420px;
-  margin-top: -720px;
+  width: 1270px;
+  height: 700px;
+  margin-left: 230px;
+  margin-top: -770px;
   padding: 30px 10px;
   background-color: #e1e1e1;
   position: relative;
-  
+  border-radius: 10px;
 }
 
 .SubjectData h2 {
@@ -106,13 +134,13 @@
 .SubjectData img {
   max-width: 100%;
   height: auto;
-  width: 700px; 
-  height: 400px; 
+  width: 1270px; 
+  height: 600px; 
 }
 
 .SubjectData video {
-  width: 700px; 
-  height: 400px; 
+  width: 1270px; 
+  height: 550px; 
 }
 
 .SubjectData audio {
@@ -129,6 +157,7 @@
   background: transparent;
   border-radius: 10px;
   color: #00684a;
+  
   
 }
 
@@ -200,7 +229,28 @@
 .categories {
   display: flex;
   flex-direction: column;
+ 
 }
+.subject-container {
+  height: 50rem;
+  width: 179px;
+  padding: 20px;
+  background-color:#e1e1e1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: -40px;
+  margin-left: -49px;
+}
+.App h3{
+  margin-left: -20px;
+  margin-bottom: -25px;
+}
+.box{
+  font-weight: bold;
+  font-size: medium;
+}
+
+
+
 
 
 

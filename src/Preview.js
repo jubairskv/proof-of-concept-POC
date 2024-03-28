@@ -60,26 +60,26 @@ function Previous() {
     setReachedDownloadPage(false);
   };
 
-  useEffect(() => {
-    if (!reachedDownloadPage && selectedCategory.data[selectedCategoryIndex].type !== 'download') {
-      const interval = setInterval(() => {
-        if (timer > 0 ) { 
-          setTimer((prevTimer) => prevTimer - 1);
-        } 
-        else {
-          if (selectedCategoryIndex !== selectedCategory.data.length - 1) {
-            handleNext();
-            setTimer(5);
-          }
-        }
-      }, 1000);
+  // useEffect(() => {
+  //   if (!reachedDownloadPage && selectedCategory.data[selectedCategoryIndex].type !== 'download') {
+  //     const interval = setInterval(() => {
+  //       if (timer > 0 ) { 
+  //         setTimer((prevTimer) => prevTimer - 1);
+  //       } 
+  //       else {
+  //         if (selectedCategoryIndex !== selectedCategory.data.length - 1) {
+  //           handleNext();
+  //           setTimer(5);
+  //         }
+  //       }
+  //     }, 1000);
   
-      return () => clearInterval(interval);
-    } else {
-      // Reset timer when returning from download page
-      setTimer(5);
-    }
-  }, [selectedCategoryIndex, timer, selectedCategory, reachedDownloadPage]);
+  //     return () => clearInterval(interval);
+  //   } else {
+  //     // Reset timer when returning from download page
+  //     setTimer(5);
+  //   }
+  // }, [selectedCategoryIndex, timer, selectedCategory, reachedDownloadPage]);
 
   
   
@@ -88,7 +88,8 @@ function Previous() {
   return (
     <div className="main-conatiner">
       <div className="App">
-        <h1>SUBJECT LIST</h1>
+        <div className="subject-container">
+        <h3>SUBJECT LIST</h3>
         <br />
         <div className="categories">
           {categories.map((category, index) => (
@@ -101,6 +102,7 @@ function Previous() {
               {""}
             </button>
           ))}
+          </div>
         </div>
       </div>
       <div className="SubjectData">
@@ -143,63 +145,17 @@ function Previous() {
                 <h2>{selectItem.title}</h2>
                 <hr className="custom-hr" />
                 <div className="json-text">
-                  <p>{selectItem.description4}</p>
-                  <table>
-                    <tbody>
-                      {selectItem.matrix1.map((row, rowIndex) => (
-                        <tr key={rowIndex}>
-                          {row.map((cell, colIndex) => (
-                            <td key={colIndex}>{cell}</td>
-                          ))}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-
-                <div className="json-text">
-                  <p>{selectItem.description5}</p>
-                  <table>
-                    <tbody>
-                      {selectItem.matrix2.map((row, rowIndex) => (
-                        <tr key={rowIndex}>
-                          {row.map((cell, colIndex) => (
-                            <td key={colIndex}>{cell}</td>
-                          ))}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-
-                <div className="json-text">
-                  <p>{selectItem.description6}</p>
-                  <table>
-                    <tbody>
-                      {selectItem.matrix3.map((row, rowIndex) => (
-                        <tr key={rowIndex}>
-                          {row.map((cell, colIndex) => (
-                            <td key={colIndex}>{cell}</td>
-                          ))}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-
-                <div className="json-text">
-                  <p>{selectItem.description7}</p>
-                  <table>
-                    <tbody>
-                      {selectItem.matrix4.map((row, rowIndex) => (
-                        <tr key={rowIndex}>
-                          {row.map((cell, colIndex) => (
-                            <td key={colIndex}>{cell}</td>
-                          ))}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+                <h4>{selectItem.description4}</h4>
+                  <p>{selectItem.answer1}</p>
+                  <h4>{selectItem.description5}</h4>
+                  <p>{selectItem.answer2}</p>
+                  <h4>{selectItem.description6}</h4>
+                  <p>{selectItem.answer3}</p>
+                  <h4>{selectItem.description7}</h4>
+                  <p>{selectItem.answer4}</p>
+                  <h4>{selectItem.description8}</h4>
+                  <p>{selectItem.answer5}</p>
+                 
                 </div>
               </div>
             )}
@@ -209,16 +165,17 @@ function Previous() {
                 <h2>{selectItem.title}</h2>
                 <hr className="custom-hr" />
                 <div className="json-text">
-                  <p>{selectItem.description4}</p>
-                  <p>{selectItem.description5}</p>
-                  <p>{selectItem.description6}</p>
-                  <p>{selectItem.description7}</p>
-                  <p>{selectItem.description8}</p>
-                  <p>{selectItem.description9}</p>
-                  <p>{selectItem.description10}</p>
-                  <p>{selectItem.description11}</p>
-                  <p>{selectItem.description12}</p>
-                  <p>{selectItem.description13}</p>
+                <h4>{selectItem.description4}</h4>
+                  <p>{selectItem.answer1}</p>
+                  <h4>{selectItem.description5}</h4>
+                  <p>{selectItem.answer2}</p>
+                  <h4>{selectItem.description6}</h4>
+                  <p>{selectItem.answer3}</p>
+                  <h4>{selectItem.description7}</h4>
+                  <p>{selectItem.answer4}</p>
+                  <h4>{selectItem.description8}</h4>
+                  <p>{selectItem.answer5}</p>
+                 
                 </div>
               </div>
             )}
@@ -228,16 +185,19 @@ function Previous() {
                 <h2>{selectItem.title}</h2>
                 <hr className="custom-hr" />
                 <div className="json-text">
-                  <p>{selectItem.description4}</p>
-                  <p>{selectItem.description5}</p>
-                  <p>{selectItem.description6}</p>
-                  <p>{selectItem.description7}</p>
-                  <p>{selectItem.description8}</p>
-                  <p>{selectItem.description9}</p>
-                  <p>{selectItem.description10}</p>
-                  <p>{selectItem.description11}</p>
-                  <p>{selectItem.description12}</p>
-                  <p>{selectItem.description13}</p>
+                  <h4>{selectItem.description4}</h4>
+                  <p>{selectItem.answer1}</p>
+                  <h4>{selectItem.description5}</h4>
+                  <p>{selectItem.answer2}</p>
+                  <h4>{selectItem.description6}</h4>
+                  <p>{selectItem.answer3}</p>
+                  <h4>{selectItem.description7}</h4>
+                  <p>{selectItem.answer4}</p>
+                  <h4>{selectItem.description8}</h4>
+                  <p>{selectItem.answer5}</p>
+                  <h4>{selectItem.description9}</h4>
+                  <p>{selectItem.answer6}</p>
+                  
                 </div>
               </div>
             )}

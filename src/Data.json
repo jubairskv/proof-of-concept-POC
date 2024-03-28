@@ -30,40 +30,24 @@
                
             },
             {
-                "type": "question",
-                "title":"Answer the following question:",
-                "subject":"mathematics",
-                "description4": "1. Find the adjoint of the following:",
-                "description5": "2. Find the inverse (if it exists) of the following:",
-                "description6": "3. Find the rank of each of the following matrices:",
-                "description7": "4.Find the rank of the following matrices which are in row-echelon form :",
-                "description8": "5. Find the rank of the following matrices by minor method:",
-                "matrix1": [
-                  [1, 2, 3],
-                  [4, 5, 6],
-                  [7, 8, 9]
-                ],
-                "matrix2": [
-                    [1, 2],
-                    [4, 5]
-                  ],
-                  "matrix3": [
-                    [1, 2, 3],
-                    [4, 5, 6],
-                    [7, 8, 9]
-                  ],
-                  "matrix4": [
-                    [1, 2],
-                    [4, 5],
-                    [7, 8]
-                  ],
-                  "matrix5": [
-                    [1, 2, -3],
-                    [-4, 5, 6],
-                    [7, -8, 9]
-                  ]
-                
-            },
+              "type": "question",
+              "title":"Answer the following question:",
+              "subject":"mathematics",
+              "description4": "1. What is the right cancellation law in abstract algebra?",
+              "description5": "2. How is the right cancellation law different from the left cancellation law?",
+              "description6": "3. Can you provide an example of the right cancellation law in the context of addition?",
+              "description7": "4. Explain how the right cancellation law is applied in the multiplication of real numbers",
+              "description8": "5.In a group with multiplication as the operation, what does it mean for an element to have a right inverse?",
+              "description9": "6. Why is the right cancellation law important in algebraic structures?",
+              "description10": "7. Explain the concept of high-gradient magnetic separation (HGMS) and its applications?",
+              "description11": "8. How can magnetic separation be applied in the purification of substances or materials?",
+              "description12": "9. Discuss the environmental implications and considerations associated with the use of magnetic separation techniques in industrial processes?",
+              "answer1":"In abstract algebra, the right cancellation law states that if ab =ac ,then b=c, where a,b and c are elements in a set under a certain operation. It means that if two elements multiplied on the right side of another element result in the same value, then those two elements must be equal.",
+              "answer2":"The right cancellation law states that if ab=ac, then b=c, where a, b, and c are elements in a set under a certain operation.On the other hand, the left cancellation law states that if ba=ca, then b=c.So, the main difference is in which side of the elements the operation takes place: in the right cancellation law, the operation occurs on the right side of the elements, while in the left cancellation law, it occurs on the left side.",
+              "answer3":"In the context of addition, the right cancellation law says that if you add the same number to two different sums and get equal results, then those two sums must have been different by that same number. For example, if 2+5=2+7, then according to the right cancellation law, 5 must equal 7.",
+              "answer4":"In the multiplication of real numbers, the right cancellation law states that if  axb =axc ,then b=c, for example if 2x3=2x5,then according to right cancellation law ,3=5. This means that if two products are equal and one of the factors is the same, then the other factor must also be the same.",
+              "answer5":"In a group with multiplication as the operation, having a right inverse means that for any element a, there exists another element b such that axb=e where e is the identity element.so if b is the right inverse of  a, multiplying a by b gives the identity element."
+          },
             {
                 "type": "download",
                 "title":"Download" ,
